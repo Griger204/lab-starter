@@ -33,13 +33,13 @@ steps:
  Step 2: Assembling the ingredients 
  - title: Making the dough and assembling the pizza
   description: In this step you'll create your pizza by first making the dough, and then any toppings you want
-#  event: # the event that will trigger the actions to be executed, full list at https://developer.github.com/v3/activity/events/types/
+  event: pull_request make a pull request if you know a better way to make the pizza
 #  actions: # a list of the actions that will occur when the step is triggered by an event
 #  - type: # the type of action, full list at https://lab.github.com/docs/actions
 
  Step 3: How to bake
  - title: The perfect baking process
   description: In this step you'll learn the perfect way to bake you pizza as well as serve it
-#  event: # the event that will trigger the actions to be executed, full list at https://developer.github.com/v3/activity/events/types/
+  event: issue_commented.created give feedback!
 #  actions: # a list of the actions that will occur when the step is triggered by an event
 #  - type: # the type of action, full list at https://lab.github.com/docs/actions
