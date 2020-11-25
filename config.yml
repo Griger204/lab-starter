@@ -26,7 +26,7 @@ steps:
  Step 1: Gather your ingerdients 
 - title: Gather all the ingredients and toppings you want and need
   description: You don't need much to make a pizza, but this is the chance to get creative with your toppings and make it "your" pizza
-  event: # the event that will trigger the actions to be executed, full list at https://developer.github.com/v3/activity/events/types/
+  event: issue_commented.created comment on the issue
   actions: # a list of the actions that will occur when the step is triggered by an event
   - type: # the type of action, full list at https://lab.github.com/docs/actions
 
