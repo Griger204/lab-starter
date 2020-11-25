@@ -21,24 +21,33 @@ before:
 # A list of steps that take the learner through the course
 # Create one step for each action that a learner will complete
 
-steps:
+ steps:
  Step 1: Gather your ingerdients 
 - title: Gather all the ingredients and toppings you want and need
   description: You don't need much to make a pizza, but this is the chance to get creative with your toppings and make it "your" pizza
   event: issue_commented.created comment on the issue
-  actions: # a list of the actions that will occur when the step is triggered by an event
-  - type: # the type of action, full list at https://lab.github.com/docs/actions
+  actions:
+    type: gate
+    left: '%payload.pull_request.title%'
+    operator: ===
+    right: Add name to README
 
  Step 2: Assembling the ingredients 
  - title: Making the dough and assembling the pizza
   description: In this step you'll create your pizza by first making the dough, and then any toppings you want
   event: pull_request make a pull request if you know a better way to make the pizza
-#  actions: # a list of the actions that will occur when the step is triggered by an event
-#  - type: # the type of action, full list at https://lab.github.com/docs/actions
+  actions:
+    type: gate
+    left: '%payload.pull_request.title%'
+    operator: ===
+    right: Add name to README
 
  Step 3: How to bake
  - title: The perfect baking process
   description: In this step you'll learn the perfect way to bake you pizza as well as serve it
   event: issue_commented.created give feedback!
-#  actions: # a list of the actions that will occur when the step is triggered by an event
-#  - type: # the type of action, full list at https://lab.github.com/docs/actions
+  actions:
+    type: gate
+    left: '%payload.pull_request.title%'
+    operator: ===
+    right: Add name to README
