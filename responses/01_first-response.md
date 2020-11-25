@@ -1,20 +1,31 @@
-# Title
+## Gather all the ingredients and toppings you want and need
 
-This is the paragraph to would describe the concept. It may link to other resources, or include images. Try to avoid _too_ much information and _too_ many external links. The purpose of these paragraphs is to give the user the information they need to complete the activity, understand what they're doing, and understand why they're doing it.
+You don't need much to make a pizza, but this is the chance to get creative with your toppings and make it "your" pizza
 
 ### More detail 
 
-If there are concepts that should be described separately, they might belong in a subparagraph section like this one.
+Don't be shy, use more toppings!
 
 ## Step X: Description
 
-Here, we'll describe generally what the user is about to do.
+Oraganize all your ingredients!
 
 ### :keyboard: Activity: Specific description
 
-1. Step 1 in short sentence
-2. Step 2 in short sentence
-3. Step 3 in short sentence
+1. 1 package (1/4 ounce) active dry yeast
+2. 1 teaspoon sugar
+3. 1-1/4 cups warm water (110° to 115°)
+4. 1/4 cup canola oil
+5. 1 teaspoon salt
+6. 3-1/2 to 4 cups all-purpose flour
+7. 1/2 pound ground beef
+8. 1 small onion, chopped
+9. 1 can (15 ounces) tomato sauce
+10. 3 teaspoons dried oregano
+11. 1 teaspoon dried basil
+12. 1 medium green pepper, diced
+13. 2 cups shredded part-skim mozzarella cheese
+14. +ANY OTHER TOPPINGS
 
 <hr>
 <h3 align="center">Watch below this comment for my response</h3>
